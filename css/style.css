@@ -103,20 +103,20 @@ button:hover {
 }
 
 .facebook {
-  background-image: url(/images/facebook.png);
+  background-image: url(images/facebook.png);
 }
 .facebook:hover {
-  background-image: url(/images/facebook_hover.png);
+  background-image: url(images/facebook_hover.png);
 }
 .twitter {
-  background-image: url(/images/twitter.png);
+  background-image: url(images/twitter.png);
 }
 .twitter:hover {
-  background-image: url(/images/twitter_hover.png);
+  background-image: url(images/twitter_hover.png);
 }
 .instagram {
-  background-image: url(/images/instagram.png);
+  background-image: url(images/instagram.png);
 }
 .instagram:hover {
-  background-image: url(/images/instagram_hover.png);
+  background-image: url(images/instagram_hover.png);
 }
