@@ -122,3 +122,22 @@ button:focus {
 .instagram:hover {
   background-image: url(/images/instagram_hover.png);
 }
+
+@media only screen and (max-width: 400px) {
+  body {
+    width: 90%;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  #email {
+    width: 90%;
+  }
+
+  #submit {
+    margin-top: 10px;
+    width: 96%;
+  }
+}
