@@ -1,5 +1,5 @@
 body {
-  width: 50%;
+  /* width: 50%; */
   font-family: "Libre Franklin", sans-serif;
   margin: 0 auto;
   font-size: 20px;
@@ -28,7 +28,7 @@ h1 b {
 }
 
 .form {
-  width: 540px;
+  max-width: 540px;
   margin: 0 auto;
 }
 
@@ -74,7 +74,8 @@ button:focus {
 }
 
 #main_image_container {
-  width: 90%;
+  /* width: 50%; */
+  max-width: 540px;
   margin: 0 auto;
 }
 #main_image_container img {
@@ -123,7 +124,7 @@ button:focus {
   background-image: url(/images/instagram_hover.png);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 570px) {
   body {
     width: 90%;
   }
