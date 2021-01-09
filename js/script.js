@@ -10,7 +10,7 @@ const setErrorMessage = message => {
 }  
 
 const checkClientWidth = () => {
-    if (window.innerWidth < 400) {
+    if (window.innerWidth < 570) {
         submit.style.marginTop = '40px';
         errorValue.style.position = 'relative';
         errorValue.style.bottom = '90px';
