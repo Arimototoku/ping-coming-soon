@@ -20,7 +20,7 @@ const checkClientWidth = () => {
 const resetErrorValue = () => {
     email.style.borderColor = '';
     errorValue.style.visibility = '';
-    submit.style.marginTop = '40px';
+    submit.style.marginTop = '';
     errorValue.style.position = '';
     errorValue.style.bottom = '';
 }
@@ -39,5 +39,3 @@ const checkEmailField = () => {
 }
 
 submit.addEventListener('click', checkEmailField);
-
-console.log(window.innerWidth);
